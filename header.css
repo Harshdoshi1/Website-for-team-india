@@ -1,0 +1,39 @@
+
+html{
+    font-size: 62.5%
+}
+
+*{
+    margin: 0px;
+}
+
+.nav-india{
+    background-color: rgb(79, 79, 79);
+    padding: 0 1rem;
+}
+
+.logo img{
+    max-width: 4rem;
+}
+
+.logo{
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    list-style: none;
+    color: aliceblue;
+    display: inline-block;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
