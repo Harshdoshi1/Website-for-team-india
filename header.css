@@ -5,6 +5,8 @@ html{
 
 *{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
 }
 
 .nav-india{
@@ -36,4 +38,18 @@ html{
 .nav a{
     text-decoration: none;
     color: aliceblue;
+}
+
+.india-gallery img{
+    width : 60rem;
+    height: 40rem;
+}
+
+.india-gallery{
+    margin-top: 1rem;
+}
+
+.india-gallery li{
+    list-style: none;
+    display: inline-block   ;
 }
