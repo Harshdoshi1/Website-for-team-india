@@ -94,6 +94,35 @@ document.getElementById("reset").onclick = function(){
     count = document.getElementById("num").innerHTML = count;
 }
 
+//-------------------------------------------------------------
+
 // simple if else 
 
-let age = 18;
+let age = 19;
+
+// age = prompt("enter your age :");
+// age = Number(age);
+
+if(age > 18){
+    console.log("you are an adult");
+}
+else if(age < 18){
+    console.log("you are an child");
+}
+else{
+    console.log("you are 18");
+}
+
+//-------------------------------------------------------------
+
+//checkbox using js
+
+document.getElementById("btn").onclick = function() {
+
+    if(document.getElementById("mycheckbox").Checked){
+        console.log("you have subscribed");
+    }
+    else{
+        console.log("you not have subscribed");
+    }
+}
