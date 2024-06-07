@@ -93,3 +93,7 @@ document.getElementById("reset").onclick = function(){
     count = 0;
     count = document.getElementById("num").innerHTML = count;
 }
+
+// simple if else 
+
+let age = 18;
