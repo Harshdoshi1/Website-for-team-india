@@ -119,7 +119,7 @@ let age = 19;
 
 document.getElementById("mybutton").onclick = function() {
 
-    if(document.getElementById("mycheckbox").Checked){
+    if(document.getElementById("mycheckbox").checked){
         console.log("you have subscribed");
     }
     else{
