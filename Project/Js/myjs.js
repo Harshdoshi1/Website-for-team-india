@@ -1,7 +1,7 @@
 
-let firstName = "harsh";
-let age = 20;
-let student = true;
+// let firstName = "harsh";
+// let age = 20;
+// let student = true;
 
 // let = a variable name can be asigned once
 // var = means variable name can be asigned multiple times
