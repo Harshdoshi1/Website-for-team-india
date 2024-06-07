@@ -12,6 +12,7 @@ html{
 .nav-india{
     background-color: rgb(79, 79, 79);
     padding: 0 1rem;
+    max-width: 100%;
 }
 
 .logo img{
@@ -41,8 +42,10 @@ html{
 }
 
 .india-gallery img{
-    width : 60rem;
-    height: 40rem;
+    max-width : 60rem;
+    max-height: auto;
+    position: absolute;
+    overflow: hidden;
 }
 
 .india-gallery{
@@ -52,4 +55,20 @@ html{
 .india-gallery li{
     list-style: none;
     display: inline-block   ;
+}
+
+@media (max-width:43rem) {
+    .logo li{
+        display: none;
+    }
+    .nav-india{
+        padding-right: 64rem;
+        background-color: rgb(79, 79, 79);
+        padding-top: 1rem;
+    }
+}
+
+main{
+    margin: 2rem ;
+    position: relative;
 }
