@@ -103,21 +103,21 @@ let age = 19;
 // age = prompt("enter your age :");
 // age = Number(age);
 
-if(age > 18){
-    console.log("you are an adult");
-}
-else if(age < 18){
-    console.log("you are an child");
-}
-else{
-    console.log("you are 18");
-}
+// if(age > 18){
+//     console.log("you are an adult");
+// }
+// else if(age < 18){
+//     console.log("you are a child");
+// }
+// else{
+//     console.log("you are 18");
+// }
 
 //-------------------------------------------------------------
 
 //checkbox using js
 
-document.getElementById("btn").onclick = function() {
+document.getElementById("mybutton").onclick = function() {
 
     if(document.getElementById("mycheckbox").Checked){
         console.log("you have subscribed");
