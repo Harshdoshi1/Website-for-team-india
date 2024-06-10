@@ -148,7 +148,7 @@ let row = window.prompt("enter your symbol : ");
 let column = window.prompt("enter your symbol : ");
 
         for(let i=1 ; i <=2 ; i++){
-m        for(j=1 ; j <=3 ; j++){
+           for(j=1 ; j <=3 ; j++){
                 console.log("*");
             }
         }
