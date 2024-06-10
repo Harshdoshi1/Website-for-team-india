@@ -141,14 +141,32 @@ let age = 19;
 //     }
 // }
 
-// star pattern using js 
+// // star pattern using js 
 
-let sybmol = window.prompt("enter your symbol : ");
-let row = window.prompt("enter your symbol : ");
-let column = window.prompt("enter your symbol : ");
+// let symbol = window.prompt("enter your symbol : ");
+// let row = window.prompt("enter your row : ");
+// let column = window.prompt("enter your column : ");
 
-for(let i=1 ; i < row ; i++){
-    for(let j=1 ; j < column ; j++){
-        document.getElementById("").innerHTML += Symbol;
-    }
+// for(let i=1 ; i < row ; i++){
+//     for(let j=1 ; j < column ; j++){
+//         document.getElementById("num").innerHTML +=  symbol;
+//     }
+//     document.getElementById("num").innerHTML +=  '<br>';
+// }
+
+// function in js
+
+function starting(){
+    let username = "harsh";
+    let age = 20;
+
+    happybirthday(username,age);
 }
+
+function happybirthday(username,age){
+    console.log("happy birthday to you!");
+    console.log("happy birthday to you!");
+    console.log("happy birthday to you!", username);
+    console.log("happy birthday to you!");
+    console.log("you are "+ age +" old");
+} 
