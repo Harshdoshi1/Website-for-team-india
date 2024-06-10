@@ -143,6 +143,7 @@ let age = 19;
 
 // star pattern using js 
 
+let sybmol = window.prompt("enter your symbol : ")
 
         for(let i=1 ; i <=2 ; i++){
             for(j=1 ; j <=3 ; j++){
