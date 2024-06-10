@@ -147,8 +147,8 @@ let sybmol = window.prompt("enter your symbol : ");
 let row = window.prompt("enter your symbol : ");
 let column = window.prompt("enter your symbol : ");
 
-        for(let i=1 ; i <=2 ; i++){
-           for(j=1 ; j <=3 ; j++){
-                console.log("*");
-            }
-        }
+for(let i=1 ; i < row ; i++){
+    for(let j=1 ; j < column ; j++){
+
+    }
+}
