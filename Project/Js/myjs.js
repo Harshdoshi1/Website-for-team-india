@@ -115,29 +115,37 @@ let age = 19;
 
 //-------------------------------------------------------------
 
-//checkbox using js
+// //checkbox using js
 
-document.getElementById("btn").onclick = function(){
+// document.getElementById("btn").onclick = function(){
 
-    const sub = document.getElementById("check").checked;
-    const visa = document.getElementById("visa").checked;
-    const mastercard = document.getElementById("visa").checked;
-    const paypal = document.getElementById("visa").checked;
+//     const sub = document.getElementById("check").checked;
+//     const visa = document.getElementById("visa").checked;
+//     const mastercard = document.getElementById("mastercard").checked;
+//     const paypal = document.getElementById("paypal").checked;
 
-    if(!sub){
-        console.log("please subscribe for payment")
-    }
-    else if(sub && visa){
-        console.log("you subscribed via visa");
-    }
-    else if(sub && mastercard){
-        console.log("you subscribed via mastercard");
-    }
-    else if(sub && paypal){
-        console.log("you subscribed via paypal");
-    }
-    else{
-        console.log("please subscribe for payment")
-    }
-}
+//     if(!sub){
+//         console.log("please subscribe for payment")
+//     }
+//     else if(sub && visa){
+//         console.log("you subscribed via visa");
+//     }
+//     else if(sub && mastercard){
+//         console.log("you subscribed via mastercard");
+//     }
+//     else if(sub && paypal){
+//         console.log("you subscribed via paypal");
+//     }
+//     else{
+//         console.log("please subscribe for payment")
+//     }
+// }
 
+// star pattern using js 
+
+
+        for(let i=1 ; i <=2 ; i++){
+            for(j=1 ; j <=3 ; j++){
+                console.log("*");
+            }
+        }
