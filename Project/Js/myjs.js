@@ -117,12 +117,27 @@ let age = 19;
 
 //checkbox using js
 
-document.getElementById("mybutton").onclick = function() {
+document.getElementById("btn").onclick = function(){
 
-    if(document.getElementById("mycheckbox").checked){
-        console.log("you have subscribed");
+    const sub = document.getElementById("check").checked;
+    const visa = document.getElementById("visa").checked;
+    const mastercard = document.getElementById("visa").checked;
+    const paypal = document.getElementById("visa").checked;
+
+    if(!sub){
+        console.log("please subscribe for payment")
+    }
+    else if(sub && visa){
+        console.log("you subscribed via visa");
+    }
+    else if(sub && mastercard){
+        console.log("you subscribed via mastercard");
+    }
+    else if(sub && paypal){
+        console.log("you subscribed via paypal");
     }
     else{
-        console.log("you not have subscribed");
+        console.log("please subscribe for payment")
     }
 }
+
