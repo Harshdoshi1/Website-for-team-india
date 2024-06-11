@@ -192,24 +192,50 @@ let age = 19;
 
 // document.getElementById("mylabel").innerHTML = text;
 
-// number guessing game using js 
+// // number guessing game using js 
 
-const ans = Math.floor(Math.random()*10 + 1);
+// const ans = Math.floor(Math.random()*10 + 1);
 
-let guesses = 0;
+// let guesses = 0;
+
+// document.getElementById("btn").onclick = function(){
+
+//     let guess = document.getElementById("input").value 
+//     guesses += 1;
+
+//     if(ans == guess){
+//         alert(`you guessed right number ${ans} with ${guesses} guesses taken`);
+//     }
+//     else if(ans < guess){
+//         alert(`guess too small`);
+//     }
+//     else{
+//         alert(`guess big`)
+//     }
+// }
+
+// Temprature convertor in js
+
+let temp;
+document.getElementById("val").value = temp;
 
 document.getElementById("btn").onclick = function(){
 
-    let guess = document.getElementById("input").value 
-    guesses += 1;
+    let celcius = 0;
+    let kelvin = celcius + 273;
 
-    if(ans == guess){
-        alert(`you guessed right number ${ans} with ${guesses} guesses taken`);
+    if(document.getElementById("cel").checked){
+        console.log(tocelcius() ,"°C");
     }
-    else if(ans < guess){
-        alert(`guess too small`);
+    else if(document.getElementById("kel").checked){
+        console.log(tofer()), "°F";
     }
-    else{
-        alert(`guess big`)
-    }
+}
+
+function tocelcius(temp){
+    return ((temp) - 32)* 5/9; // °C
+}
+
+function tofer(temp){
+    return ((temp) - 32 * 5/9) + 273; // °F
 }
