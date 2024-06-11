@@ -192,4 +192,10 @@ let age = 19;
 
 // document.getElementById("mylabel").innerHTML = text;
 
+const num = window.prompt("guess the number :");
 
+let ans = Math.floor(Math.random()*10 + 1);
+
+document.getElementById("btn").onclick = function(){
+    document.getElementById("input").innerHTML = ans;
+}
