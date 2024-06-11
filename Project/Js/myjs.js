@@ -154,19 +154,39 @@ let age = 19;
 //     document.getElementById("num").innerHTML +=  '<br>';
 // }
 
-// function in js
+// // function in js
 
-function starting(){
-    let username = "harsh";
-    let age = 20;
+// starting();
 
-    happybirthday(username,age);
-}
+// function starting(){
+//     let username = "harsh";
+//     let age = 20;
 
-function happybirthday(username,age){
-    console.log("happy birthday to you!");
-    console.log("happy birthday to you!");
-    console.log("happy birthday to you!", username);
-    console.log("happy birthday to you!");
-    console.log("you are "+ age +" old");
-} 
+//     happybirthday(username,age);
+// }
+
+// function happybirthday(username,age){
+//     console.log("happy birthday to you!");
+//     console.log("happy birthday to you!");
+//     console.log("happy birthday to you!", username);
+//     console.log("happy birthday to you!");
+//     console.log("you are ", age , " old");
+// } 
+
+// // ternary operator 
+
+// check(false);
+
+// function check(win){
+//     win ? console.log("you won") : console.log("you lost");
+// }
+
+// template literals 
+
+let name1 = "harsh";
+let age1 = 20;
+
+console.log(`hello ${name1} you are ${age1}`);
+
+let text = `hello ${name1} you are ${age1}`;
+
