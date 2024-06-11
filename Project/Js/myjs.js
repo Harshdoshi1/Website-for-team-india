@@ -190,3 +190,4 @@ console.log(`hello ${name1} you are ${age1}`);
 
 let text = `hello ${name1} you are ${age1}`;
 
+document.getElementById("mylabel").innerHTML = text;
