@@ -192,10 +192,24 @@ let age = 19;
 
 // document.getElementById("mylabel").innerHTML = text;
 
-const num = window.prompt("guess the number :");
+// number guessing game using js 
 
-let ans = Math.floor(Math.random()*10 + 1);
+const ans = Math.floor(Math.random()*10 + 1);
+
+let guesses = 0;
 
 document.getElementById("btn").onclick = function(){
-    document.getElementById("input").innerHTML = ans;
+
+    let guess = document.getElementById("input").value 
+    guesses += 1;
+
+    if(ans == guess){
+        alert(`you guessed right number ${ans} with ${guesses} guesses taken`);
+    }
+    else if(ans < guess){
+        alert(`guess too small`);
+    }
+    else{
+        alert(`guess big`)
+    }
 }
