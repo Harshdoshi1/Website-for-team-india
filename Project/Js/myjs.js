@@ -181,13 +181,15 @@ let age = 19;
 //     win ? console.log("you won") : console.log("you lost");
 // }
 
-// template literals 
+// // template literals 
 
-let name1 = "harsh";
-let age1 = 20;
+// let name1 = "harsh";
+// let age1 = 20;
 
-console.log(`hello ${name1} you are ${age1}`);
+// console.log(`hello ${name1} you are ${age1}`);
 
-let text = `hello ${name1} you are ${age1}`;
+// let text = `hello ${name1} you are ${age1}`;
 
-document.getElementById("mylabel").innerHTML = text;
+// document.getElementById("mylabel").innerHTML = text;
+
+
