@@ -278,3 +278,6 @@ for(let list of my2darray){
         console.log(my);
     }
 }
+
+// spread opertor 
+
