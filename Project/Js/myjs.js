@@ -253,10 +253,28 @@ fruits.shift();
 
 // console.log(fruits);
 
-//sort the array
+// //sort the array
 
-fruits.sort().reverse()
+// fruits.sort().reverse()
 
-for(let fruit of fruits){
-    console.log(fruit);
+// for(let fruit of fruits){
+//     console.log(fruit);
+// }
+
+// 2d array = array of array
+
+let games = ["pubg","cod","fifa"];
+let editing = ["prepro","davinci","capcut"];
+let lang = ["html","css","js"];
+
+let my2darray = [games,editing,lang];
+
+my2darray[0][0] = "gta";
+
+// console.log(my2darray);
+
+for(let list of my2darray){
+    for(let my of list){
+        console.log(my);
+    }
 }
