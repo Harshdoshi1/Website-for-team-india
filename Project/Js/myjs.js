@@ -214,28 +214,41 @@ let age = 19;
 //     }
 // }
 
-// Temprature convertor in js
+// // Temprature convertor in js
 
-let temp;
-document.getElementById("val").value = temp;
+// document.getElementById("btn").onclick = function(){
 
-document.getElementById("btn").onclick = function(){
+//     let temp;
 
-    let celcius = 0;
-    let kelvin = celcius + 273;
+//     if(document.getElementById("cel").checked){
+//         temp = document.getElementById("val").value;
+//         temp = Number(temp);
+//         temp = tocelcius(temp);
+//         document.getElementById("anslabel").innerHTML = temp + "°C";
+//     }
+//     else if(document.getElementById("fer").checked){
+//         temp = document.getElementById("val").value;
+//         temp = Number(temp);
+//         temp = tofer(temp);
+//         document.getElementById("anslabel").innerHTML = temp + "°F";
+//     }
+// }
 
-    if(document.getElementById("cel").checked){
-        console.log(tocelcius() ,"°C");
-    }
-    else if(document.getElementById("kel").checked){
-        console.log(tofer()), "°F";
-    }
-}
+// function tocelcius(temp){
+//     return (temp - 32)*(5/9); // °C
+// }
 
-function tocelcius(temp){
-    return ((temp) - 32)* 5/9; // °C
-}
+// function tofer(temp){
+//     return temp * 9/5 + 32; // °F
+// }
 
-function tofer(temp){
-    return ((temp) - 32 * 5/9) + 273; // °F
-}
+// array in js 
+
+let fruits = ["apple", "mango", "orange"];
+
+fruits.push("banana");
+fruits.pop();
+fruits.unshift("guava");
+fruits.shift();
+
+console.log(fruits);
