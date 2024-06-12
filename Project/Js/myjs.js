@@ -251,4 +251,12 @@ fruits.pop();
 fruits.unshift("guava");
 fruits.shift();
 
-console.log(fruits);
+// console.log(fruits);
+
+//sort the array
+
+fruits.sort().reverse()
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
