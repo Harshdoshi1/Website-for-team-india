@@ -261,23 +261,28 @@ fruits.shift();
 //     console.log(fruit);
 // }
 
-// 2d array = array of array
+// // 2d array = array of array
 
-let games = ["pubg","cod","fifa"];
-let editing = ["prepro","davinci","capcut"];
-let lang = ["html","css","js"];
+// let games = ["pubg","cod","fifa"];
+// let editing = ["prepro","davinci","capcut"];
+// let lang = ["html","css","js"];
 
-let my2darray = [games,editing,lang];
+// let my2darray = [games,editing,lang];
 
-my2darray[0][0] = "gta";
+// my2darray[0][0] = "gta";
 
-// console.log(my2darray);
+// // console.log(my2darray);
 
-for(let list of my2darray){
-    for(let my of list){
-        console.log(my);
-    }
-}
+// for(let list of my2darray){
+//     for(let my of list){
+//         console.log(my);
+//     }
+// }
 
 // spread opertor 
 
+let numbers = [1,2,3,4,5,6,7,8,9];
+
+let maxi = Math.max(...numbers);
+
+console.log(maxi);
