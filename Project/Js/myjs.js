@@ -324,18 +324,27 @@ let age = 19;
 
 //-------------------------------------------------------------
 
-// foreach in array 
+// // foreach in array 
 
-let game = ["bgmi","cod","fifa"];
-game.forEach(capitalize);
+// let game = ["bgmi","cod","fifa"];
+// game.forEach(capitalize);
+// game.forEach(print);
 
-function capitalize(element , index , array){
-    array[index] = element[0].toUpperCase() + element.substring(1);
-}
+// function capitalize(element , index , array){
+//     array[index] = element[0].toUpperCase() + element.substring(1);
+// }
 
-// console.log(game[0]);
+// // console.log(game[0]);
 
-function print(element){
-    console.log(element);
-}
+// function print(element){
+//     console.log(element);
+// }
 
+//-------------------------------------------------------------
+
+// map in array 
+
+    let game = ["bgmi","cod","fifa"];
+
+
+    function squ
