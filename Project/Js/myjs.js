@@ -279,10 +279,27 @@ fruits.shift();
 //     }
 // }
 
-// spread opertor 
+// // spread opertor 
 
-let numbers = [1,2,3,4,5,6,7,8,9];
+// let numbers = [1,2,3,4,5,6,7,8,9];
 
-let maxi = Math.max(...numbers);
+// let maxi = Math.max(...numbers);
 
-console.log(maxi);
+// console.log(maxi);
+
+// call back in js
+
+sum(2, 3 , displayDOM)
+
+function sum(x, y , callback){
+    let result = x + y;
+    callback(result);
+}
+
+function displayconsole(output){
+    console.log(output);
+}
+
+function displayDOM(output){
+    document.getElementById("mylabel").innerHTML = output;
+}
