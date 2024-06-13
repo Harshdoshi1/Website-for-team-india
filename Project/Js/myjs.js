@@ -357,19 +357,35 @@
 //         console.log(element);
 //     }
 
-// filter in array
+// // filter in array
+
+//         let age = [10,20,30,40,50];
+
+//         let adult = age.filter(filter);
+//         adult.forEach(print);
+
+//         function filter(element){
+//             return element >= 18;
+//         }
+
+//         function print(element){
+//             console.log(element);
+//         }
+
+// reduce in array = it reduces array value in single value
 
         let age = [10,20,30,40,50];
 
-        let adult = age.filter(filter);
-        adult.forEach(print);
+        let newarr = age.reduce(check);
 
-        function filter(element){
-            return element >= 18;
+        console.log(`your total is $${newarr}`);
+
+        print(newarr);
+
+        function check(total, element){
+            return total + element;
         }
 
         function print(element){
             console.log(element);
         }
-
-// reduce in array = it reduces array value in single value
