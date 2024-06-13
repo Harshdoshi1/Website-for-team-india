@@ -98,7 +98,7 @@
 
 // simple if else 
 
-let age = 19;
+// let age = 19;
 
 // age = prompt("enter your age :");
 // age = Number(age);
@@ -342,17 +342,34 @@ let age = 19;
 
 //-------------------------------------------------------------
 
-// map in array 
+// // map in array 
 
-    let game = [1,2,3,4,5];
+//     let game = [1,2,3,4,5];
 
-    let squares = game.map(square);
-    squares.forEach(print);
+//     let squares = game.map(square);
+//     squares.forEach(print);
 
-    function square(element){
-        return Math.pow(element, 2);
-    }
+//     function square(element){
+//         return Math.pow(element, 2);
+//     }
 
-    function print(element){
-        console.log(element);
-    }
+//     function print(element){
+//         console.log(element);
+//     }
+
+// filter in array
+
+        let age = [10,20,30,40,50];
+
+        let adult = age.filter(filter);
+        adult.forEach(print);
+
+        function filter(element){
+            return element >= 18;
+        }
+
+        function print(element){
+            console.log(element);
+        }
+
+// reduce in array = it reduces array value in single value
