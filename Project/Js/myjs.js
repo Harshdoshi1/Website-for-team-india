@@ -372,18 +372,34 @@
 //             console.log(element);
 //         }
 
-// reduce in array = it reduces array value in single value
+// // reduce in array = it reduces array value in single value
 
-        let age = [10,20,30,40,50];
+//         let age = [10,20,30,40,50];
 
-        let newarr = age.reduce(check);
+//         let newarr = age.reduce(check);
 
-        console.log(`your total is $${newarr}`);
+//         console.log(`your total is $${newarr}`);
 
-        print(newarr);
+//         print(newarr);
 
-        function check(total, element){
-            return total + element;
+//         function check(total, element){
+//             return total + element;
+//         }
+
+//         function print(element){
+//             console.log(element);
+//         }
+
+// ascending and descending order in js
+
+        let arr = [1,2,3,4,5,6,7,8,9]
+
+        let asce = arr.sort(descending);
+
+        asce.forEach(print);
+
+        function descending(x,y){
+            return y-x;
         }
 
         function print(element){
