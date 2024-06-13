@@ -345,6 +345,13 @@ let age = 19;
 // map in array 
 
     let game = ["bgmi","cod","fifa"];
+    game.forEach(square);
 
+    function square(element){
+        return Math.pow(element, 2);
+    }
 
-    function squ
+    function print(element){
+        console.log(element);
+    }
+
