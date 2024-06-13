@@ -335,7 +335,7 @@ function capitalize(element , index , array){
 
 // console.log(game[0]);
 
-function print(){
-    console.log(game);
+function print(element){
+    console.log(element);
 }
 
