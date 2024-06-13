@@ -333,4 +333,9 @@ function capitalize(element , index , array){
     array[index] = element[0].toUpperCase() + element.substring(1);
 }
 
-console.log(game[0]);
+// console.log(game[0]);
+
+function print(){
+    console.log(game);
+}
+
