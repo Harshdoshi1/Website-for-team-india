@@ -141,6 +141,8 @@ let age = 19;
 //     }
 // }
 
+//-------------------------------------------------------------
+
 // // star pattern using js 
 
 // let symbol = window.prompt("enter your symbol : ");
@@ -153,6 +155,8 @@ let age = 19;
 //     }
 //     document.getElementById("num").innerHTML +=  '<br>';
 // }
+
+//-------------------------------------------------------------
 
 // // function in js
 
@@ -173,6 +177,8 @@ let age = 19;
 //     console.log("you are ", age , " old");
 // } 
 
+//-------------------------------------------------------------
+
 // // ternary operator 
 
 // check(false);
@@ -191,6 +197,8 @@ let age = 19;
 // let text = `hello ${name1} you are ${age1}`;
 
 // document.getElementById("mylabel").innerHTML = text;
+
+//-------------------------------------------------------------
 
 // // number guessing game using js 
 
@@ -213,6 +221,8 @@ let age = 19;
 //         alert(`guess big`)
 //     }
 // }
+
+//-------------------------------------------------------------
 
 // // Temprature convertor in js
 
@@ -242,14 +252,16 @@ let age = 19;
 //     return temp * 9/5 + 32; // °F
 // }
 
-// array in js 
+//-------------------------------------------------------------
 
-let fruits = ["apple", "mango", "orange"];
+// // array in js 
 
-fruits.push("banana");
-fruits.pop();
-fruits.unshift("guava");
-fruits.shift();
+// let fruits = ["apple", "mango", "orange"];
+
+// fruits.push("banana");
+// fruits.pop();
+// fruits.unshift("guava");
+// fruits.shift();
 
 // console.log(fruits);
 
@@ -260,6 +272,8 @@ fruits.shift();
 // for(let fruit of fruits){
 //     console.log(fruit);
 // }
+
+//-------------------------------------------------------------
 
 // // 2d array = array of array
 
@@ -279,6 +293,8 @@ fruits.shift();
 //     }
 // }
 
+//-------------------------------------------------------------
+
 // // spread opertor 
 
 // let numbers = [1,2,3,4,5,6,7,8,9];
@@ -287,19 +303,34 @@ fruits.shift();
 
 // console.log(maxi);
 
-// call back in js
+//-------------------------------------------------------------
 
-sum(2, 3 , displayDOM)
+// // call back in js
 
-function sum(x, y , callback){
-    let result = x + y;
-    callback(result);
+// sum(2, 3 , displayDOM)
+
+// function sum(x, y , callback){
+//     let result = x + y;
+//     callback(result);
+// }
+
+// function displayconsole(output){
+//     console.log(output);
+// }
+
+// function displayDOM(output){
+//     document.getElementById("mylabel").innerHTML = output;
+// }
+
+//-------------------------------------------------------------
+
+// foreach in array 
+
+let game = ["bgmi","cod","fifa"];
+game.forEach(capitalize);
+
+function capitalize(element , index , array){
+    array[index] = element[0].toUpperCase() + element.substring(1);
 }
 
-function displayconsole(output){
-    console.log(output);
-}
-
-function displayDOM(output){
-    document.getElementById("mylabel").innerHTML = output;
-}
+console.log(game[0]);
